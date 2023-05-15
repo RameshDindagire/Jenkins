@@ -9,7 +9,7 @@ agent any
         }
         stage("B"){
             steps{
-                echo "========executing A========"
+                sh 'pwd'
             }
            
         }
